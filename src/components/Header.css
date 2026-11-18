@@ -1,0 +1,52 @@
+.header{
+    width: 100%;
+    background-color: #ffffff;
+    padding: 20px;
+}
+.header-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img {
+  width: 200px;
+  height: 26px;
+  display: block;
+}
+.nav-links{
+    display: flex;
+    gap: 32px;
+}
+.nav-links a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #230B59;
+    text-decoration: none;
+    line-height: 27px;
+    letter-spacing: 0;
+}
+.auth-buttons{
+    display: flex;
+    gap: 12px;
+}
+.btn-login{
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid #4f46e5;
+    color: #4f46e5;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.btn-signup{
+    padding: 10px 20px;
+    background: #4f46e5;
+    border: none;
+    color: #ffffff;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+}

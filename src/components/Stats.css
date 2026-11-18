@@ -1,0 +1,25 @@
+.stats-section{
+    width: 100%;
+    background-color: #ffffff;
+    padding: 50px;
+    border-top: 1px solid #f1f5f9;
+    border-bottom: 1px solid #f1f5f9;
+}
+.stats-conatiner{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.stat-item{
+    display: flex;
+    align-items: center;
+}
+.stat-logo{
+    height: 71px;
+    width: 190px;
+}
